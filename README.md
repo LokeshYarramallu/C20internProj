@@ -1,7 +1,7 @@
 # C20internProj
 Detection of key objects for helping visually disabled people
 
-This project uses Roboflow and OpenCV to perform real-time object detection using a webcam.
+This project uses Yolov8 model , trained yolov8 and OpenCV to perform real-time object detection using a webcam.
 
 Getting Started , 
 To get started with this project, follow these steps:
@@ -10,24 +10,20 @@ Clone the repository to your local machine.
 
 Create a Python virtual environment using venv or conda.
 
-Activate the virtual environment.
-
-Install the required libraries using the following command:
-
-Copy code :  
-  pip install -r requirements.txt
-
-Run the object_detection.py script.
-
 Requirements  ,
 This project requires the following libraries to be installed:
 
-opencv-python==4.5.3.56
+### --> pip install opencv-python pyttsx3 ultralytics
 
-roboflow==2.1.16
+# How to Use
+1.Connect a webcam to your computer.
 
-pyttsx3==2.90
+2.Download the script and the YOLOv8 model.
 
-numpy==1.21.3
+3.Run the script in a Python environment with the required libraries installed.
 
-Change the Variable the strating of python code as per requirement WebCAm input generally takes 0 if there is single source
+4.The script will open a live video stream from your webcam and start detecting the specified classes of objects. When an object is detected, the script will draw a rectangle around it and speak out its name using text-to-speech.
+
+5.Press "q" to exit the program.
+
+Note: The script assumes that the YOLOv8 model file is saved in a directory named "models" in the same directory as the script. If the model file is saved in a different directory, the path in the script should be modified accordingly.
