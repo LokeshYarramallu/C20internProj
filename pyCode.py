@@ -1,4 +1,6 @@
+# if you not have a downloaded model, it automatically downloads the first time you run the code
 # Define variables
+
 voice_id = 0                        # index of the desired voice
 voice_rate = 100                    # rate of the speech
 voice_vol = 5                       # volume of the speech
