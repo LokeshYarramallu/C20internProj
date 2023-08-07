@@ -1,4 +1,10 @@
-# C20internProj
+# Object Detection for Visually Impaired People
+## C20internProj
+
+![image](https://github.com/LokeshYarramallu/C20internProj/assets/75054074/a334898d-22e1-459f-b666-249ae946b532)
+![image](https://github.com/LokeshYarramallu/C20internProj/assets/75054074/f19cd88c-a113-4c77-a012-a83f2c2a18f2)
+
+
 Detection of key objects for helping visually disabled people
 
 This project uses Yolov8 model , trained yolov8 and OpenCV to perform real-time object detection using a webcam.
